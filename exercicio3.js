@@ -27,3 +27,6 @@ console.log("Buscando ID 99 (Inexistente):", buscarUsuarioPorId(99));
 //--------------------------------------------------------------------------------------------------------------------------------------
 
 //exercicio 3- B)
+
+const primeiroProdutoZero = produtos.find((produto) => produto.estoque === 0);
+console.log("O primeiro produto com Estoque zero é: ", primeiroProdutoZero);
